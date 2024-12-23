@@ -5,7 +5,7 @@ export default async function Home() {
   const res = await url.json()
   console.log(res)
   return (
-    <main>
+    <main className='text-center mt-4 space-y-4'>
       
     {
       res.map((posts : any , index : number) =>(
